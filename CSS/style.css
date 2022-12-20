@@ -3,8 +3,7 @@
 }
 
 .rowstyle {
-    /* border: 2px solid black; */
-    margin: 0;
+      margin: 0;
     min-height: 200px;
     align-items: end;
    
@@ -13,7 +12,6 @@
   .rowstyle1 {
     margin: 0;
     min-height: 350px;
-    /* border: 1px solid; */
   }
   
   .aside {
