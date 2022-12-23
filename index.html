@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Portfolio</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">`
+    <title>James Sutcliffe Portfolio</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="/CSS/style.css">
       </head>
 <body>
@@ -20,16 +20,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#aboutMe">About Me<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Skills<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#skills">Skills<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Work<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#work">Work<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#contactMe">Contact<span class="sr-only">(current)</span></a>
             </li>
       
         </div>
@@ -53,7 +53,7 @@
 
       <!-- About me -->
 
-      <div class="container-fluid aboutMe">
+      <div class="container-fluid aboutMe" id="aboutMe">
         <div class="row">
       <aside class="cardContainer col-lg-2.5 col-md-2 col-sm-12 aside">About Me</aside>
       <div class="cardContainer col-lg-9 col-md-9 col-sm-12">
@@ -76,15 +76,15 @@
       </div>
       </div>
 
-      <div class="container-fluid contact">
+      <div class="container-fluid contact" id="skills">
         <div class="row">
       <aside class="cardContainer col-lg-2.5 col-md-2 col-sm-12 aside">Skills</aside>
       <div class="cardContainer col-lg-9 col-md-9 col-sm-12 rowstyle2 d-flex justify-content-around align-items-center">
         <img src="/images/html.png" style="height: 90px;" alt="">         
-                <img src="/images/css3.png" style="height: 90px;" alt="">
-                <img src="/images/javascript.png" style="height: 90px;" alt="">
-                <img src="/images/nodejs.png" style="height: 90px;" alt="">
-                <img src="/images/react.png" style="height: 90px;" alt="">
+                <img src="/images/css3.png" style="height: 80px;" alt="">
+                <img src="/images/javascript.png" style="height: 80px;" alt="">
+                <img src="/images/nodejs.png" style="height: 80px;" alt="">
+                <img src="/images/react.png" style="height: 80px;" alt="">
       </div>
       </div>
       </div>
@@ -93,50 +93,66 @@
 
       <!-- ASIDE + first large img -->
 
-      <div class="container-fluid">
+      <div class="container-fluid Work" id="work">
         <div class="row">
       <aside class="cardContainer col-lg-2.5 col-md-2 col-sm-12 aside">Work</aside>
       <div class="cardContainer col-lg-9 col-md-9 col-sm-12">
-        <div class="row largeImgRow">
-          <div class="cardContainer col-lg-12 col-md-12 col-sm-12">
-            <div class="card" style="width: 100%;">
-              <img src="images/2_card.png" class="card-img-top" alt="...">
+        <div class="row">
+          
+          
+
+          <!-- <div class="cardContainer col-lg-6 col-md-6 col-sm-12"> -->
+            <!-- <div class="card" style="width: 100%;">
+              <img src="images/fruit_banner.jpg" class="card-img-top" alt="Various fruit">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h1>Fruit Basket</h1>
+                <p class="card-text">A JS driven e-commerce fruit basket front-end project implemented via HTML, Bootstrap and css.</p>
               </div>
             </div>
-          </div>
+          </div> -->
 
    <!-- 4 lower boxes -->
           
-      <div class="cardContainer col-lg-6 col-md-6 col-sm-6">
+      <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
         <div class="card" style="width: 100%;">
-          <img src="images/1_card.png" class="card-img-top" alt="...">
+          <a href="https://jamesrobertsutcliffe.github.io/movie_database_2/">
+          <img src="images/film.jpg" class="card-img-top" alt="Old film reel">
+          </a>
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h1>Movie Database</h1>
+            <p class="card-text">A JS driven movie database with various functions driving user interactability.</p>
           </div>
         </div>
       </div>
-      <div class="cardContainer col-lg-6 col-md-6 col-sm-6">
+      <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
         <div class="card" style="width: 100%;">
-          <img src="images/3_card.png" class="card-img-top" alt="...">
+          <a href="https://jamesrobertsutcliffe.github.io/fruit-basket/">
+          <img src="images/fruit_banner.jpg" class="card-img-top" alt="Fruit of a blue background">
+          </a>
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h1>Fruit Basket</h1>
+            <p class="card-text">A JS driven e-commerce fruit basket front-end project implemented via HTML, Bootstrap and css.</p>
           </div>
         </div>
       </div>
-      <div class="cardContainer col-lg-6 col-md-6 col-sm-6">
+      <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
         <div class="card" style="width: 100%">
-          <img src="images/4_card.png" class="card-img-top" alt="...">
+          <a href="#">
+          <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
+            <h1>Project 1</h1>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
       </div>
-      <div class="cardContainer col-lg-6 col-md-6 col-sm-6">
+      <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
         <div class="card" style="width: 100%;">
-          <img src="images/5_card.png" class="card-img-top" alt="...">
+          <a href="#">
+          <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
+            <h1>Project 2</h1>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -148,17 +164,17 @@
 
             <!-- Contact-me -->
 
-            <div class="container-fluid contact">
+            <div class="container-fluid contact" id="contactMe">
               <div class="row">
             <aside class="cardContainer col-lg-2.5 col-md-2 col-sm-12 aside">Contact Me</aside>
-            <div class="cardContainer col-lg-9 col-md-9 col-sm-12 rowstyle2 d-flex justify-content-around align-items-center">
-              <a href="https://www.linkedin.com/in/james-robert-sutcliffe/">
+            <div class="cardContainer col-lg-9 col-md-9 col-sm-12 d-flex justify-content-around align-items-center">
+              <a href="https://www.linkedin.com/in/james-sutcliffe-714794123/">
               <img src="/images/ln.png" style="height: 90px;" alt="">
               </a>
               <a href="https://github.com/JamesRobertSutcliffe">
                 <img src="/images/github.png" style="height: 90px;" alt="">
               </a>
-              <a href="jsutcliffe1991@gmail.com">
+              <a href="mailto: jsutcliffe1991@gmail.com">
                 <img src="/images/email.png" style="height: 90px;" alt="">
               </a>
             </div>
@@ -169,10 +185,15 @@
 <!-- FOOTER -->
 
             <nav class="navbar2 navbar-expand-lg navbar-light d-flex justify-content-around align-items-center">
-              <h1 class="navbar-brand2">© 2022 | James Robert Sutcliffe</h1>            
+              <h2 class="navbar-brand2">© 2022 | James Robert Sutcliffe</h2>            
                     </nav>
 
-       
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>       
+                           
+
+
     
 </body>
 </html>

@@ -18,7 +18,12 @@ body {
 .navbar-nav a {
   color: rgba(146, 204, 206, 1) !important;
   margin-right: 60px;
-  font-size: 1vw;
+  background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition:  all 0.25s ease-in;
+
 }
 
 .navbar {
@@ -31,11 +36,17 @@ background-color: var(--tertiary);
 
 .navbar-brand {
   margin: 0px;
-  padding-left: 30px;
-  padding-right: 5px;
+  padding: 10px;
   background-color: var(--secondary);
-  font-size: 2vw;
+  font-weight: bolder;
+
 }
+
+.nav-item a:hover{
+    background-size: 100% 100%;
+    color: var(--primary) !important;
+  }
+
 
 
 /* JUMBO */
@@ -71,6 +82,15 @@ background-color: var(--tertiary);
     font-size: 40px;
       }
 
+  .card-body {
+    background-color: var(--tertiary);
+    color: var(--secondary);
+  }
+
+  .card:hover {
+    box-shadow: 0 10px 20px var(--secondary);
+  }
+
 /* contact */
 
 .contact {
@@ -78,10 +98,13 @@ background-color: var(--tertiary);
   margin-bottom: 20px;  
 }
 
+.contact a:hover {
+  box-shadow: 0 5px 15px var(--secondary);
+}
+
 /* footer */
 
 .navbar2 {
- 
     margin: 10px 10px 0px 10px;
     min-height: 100px;
     background-color: var(--tertiary);
@@ -90,8 +113,7 @@ background-color: var(--tertiary);
 
 .navbar-brand2 {
   margin: 0px;
-  padding: 10px 5px 10px 5px;
+  padding: 10px;
   background-color: var(--secondary);
-  font-size: 2vw;
-}
+ }
 
