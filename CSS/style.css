@@ -39,7 +39,7 @@ background-color: var(--tertiary);
   padding: 10px;
   background-color: var(--secondary);
   font-weight: bolder;
-
+  font-size: 1.1rem;
 }
 
 .nav-item a:hover{
